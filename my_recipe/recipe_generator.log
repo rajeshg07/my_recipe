@@ -1,0 +1,72 @@
+2025-04-21 20:53:42,460 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-21 20:53:42,488 - services.ollama_service - ERROR - Model check failed: 'name'
+2025-04-21 20:53:42,488 - configs.logging_config - ERROR - Error: 'name'
+2025-04-21 20:54:20,148 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-21 20:54:20,148 - services.ollama_service - ERROR - Model check failed: 'name'
+2025-04-21 20:54:20,148 - configs.logging_config - ERROR - Error: 'name'
+2025-04-21 20:58:26,963 - configs.logging_config - INFO - Initializing Ollama service...
+2025-04-21 20:58:26,968 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-21 20:58:26,968 - services.ollama_service - ERROR - Model check failed: 'name'
+2025-04-21 20:58:26,968 - configs.logging_config - ERROR - Validation error: Model verification error: 'name'
+2025-04-21 22:03:04,594 - INFO - Application started.
+2025-04-21 22:03:18,885 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-21 22:03:18,886 - ERROR - Error fetching model list: 'name'
+2025-04-21 22:03:18,887 - WARNING - Model 'deepseek-r1:1.5b' not found. Using 'deepseek' as default.
+2025-04-21 22:03:28,364 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-21 22:03:28,365 - ERROR - Error during chat: model "deepseek" not found, try pulling it first (status code: 404)
+2025-04-21 22:03:28,365 - INFO - Recipe generation complete.
+2025-04-21 22:03:43,330 - INFO - Application started.
+2025-04-21 22:03:54,855 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-21 22:03:54,856 - ERROR - Error fetching model list: 'name'
+2025-04-21 22:03:54,856 - WARNING - Model 'llama2' not found. Using 'deepseek' as default.
+2025-04-21 22:03:59,713 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-21 22:03:59,714 - ERROR - Error during chat: model "deepseek" not found, try pulling it first (status code: 404)
+2025-04-21 22:03:59,714 - INFO - Recipe generation complete.
+2025-04-21 22:05:07,834 - INFO - Application started.
+2025-04-21 22:06:37,167 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-21 22:06:37,169 - ERROR - Error fetching model list: 'name'
+2025-04-21 22:06:37,169 - WARNING - Model 'deepseek-r1:1.5b' not found. Using 'deepseek' as default.
+2025-04-21 22:06:42,975 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-21 22:06:42,976 - ERROR - Error during chat: model "deepseek" not found, try pulling it first (status code: 404)
+2025-04-21 22:06:42,976 - INFO - Recipe generation complete.
+2025-04-21 22:07:51,765 - INFO - Application started.
+2025-04-21 22:08:04,563 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-21 22:08:04,565 - ERROR - Error fetching model list: 'name'
+2025-04-21 22:08:04,565 - WARNING - Model 'deepseek-r1:1.5b' not found. Using 'deepseek' as default.
+2025-04-21 22:08:14,557 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-21 22:08:24,296 - WARNING - Couldn't parse JSON response. Returning raw output.
+2025-04-21 22:08:24,297 - INFO - Recipe generation complete.
+2025-04-22 10:48:36,613 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-22 10:48:38,302 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-22 10:48:38,302 - ERROR - Error fetching model list: 'name'
+2025-04-22 10:48:38,302 - WARNING - Model 'deepseek-r1:1.5b' not found. Using 'deepseek' as default.
+2025-04-22 20:31:17,636 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-22 20:31:17,638 - ERROR - Failed to check models: 'name'
+2025-04-22 20:31:17,638 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-22 20:31:18,923 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-22 20:31:18,924 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-22 20:31:56,727 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-22 20:35:18,534 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-22 20:35:18,536 - ERROR - Failed to check models: 'name'
+2025-04-22 20:35:18,536 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-22 20:35:19,768 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-22 20:35:19,768 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-22 20:35:38,191 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-22 20:36:29,495 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-22 20:36:29,497 - ERROR - Failed to check models: 'name'
+2025-04-22 20:36:29,497 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-22 20:36:30,352 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-22 20:36:30,353 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-22 20:36:52,759 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-22 20:38:03,044 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-22 20:38:03,047 - ERROR - Failed to check models: 'name'
+2025-04-22 20:38:03,048 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-22 20:38:04,258 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-22 20:38:04,259 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-22 20:38:16,182 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-22 21:16:28,942 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-22 21:16:28,945 - ERROR - Failed to check models: 'name'
+2025-04-22 21:16:28,945 - WARNING - Model 'Qwen' not found. Attempting to pull...
+2025-04-22 21:18:19,125 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-22 21:18:19,127 - INFO - Successfully pulled model 'Qwen'
+2025-04-22 21:18:40,525 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
