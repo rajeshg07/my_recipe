@@ -1,3 +1,0 @@
-DEFAULT_MODEL = "deepseek-r1:1.5b"
-DEFAULT_TEMP = 0.7
-DEFAULT_FORMAT = "json"

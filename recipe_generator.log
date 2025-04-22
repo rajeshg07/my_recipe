@@ -1,0 +1,21 @@
+2025-04-22 09:41:30,948 - INFO - Application started.
+2025-04-22 09:41:38,963 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-22 09:41:38,964 - ERROR - Error fetching model list: 'name'
+2025-04-22 09:41:38,964 - WARNING - Model 'qwen' not found. Using 'deepseek' as default.
+2025-04-22 09:41:47,543 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-22 09:42:09,583 - WARNING - Couldn't parse JSON response. Returning raw output.
+2025-04-22 09:42:09,584 - INFO - Recipe generation complete.
+2025-04-22 09:42:38,230 - INFO - Application started.
+2025-04-22 09:42:43,427 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-22 09:42:43,429 - ERROR - Error fetching model list: 'name'
+2025-04-22 09:42:43,429 - WARNING - Model 'abced asdasd' not found. Using 'deepseek' as default.
+2025-04-22 09:42:48,176 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-22 09:43:03,963 - WARNING - Couldn't parse JSON response. Returning raw output.
+2025-04-22 09:43:03,963 - INFO - Recipe generation complete.
+2025-04-22 09:51:32,913 - INFO - Application started.
+2025-04-22 09:51:36,157 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-22 09:51:36,159 - ERROR - Error fetching model list: 'name'
+2025-04-22 09:51:36,159 - WARNING - Model 'deepseek' not found. Using 'deepseek' as default.
+2025-04-22 09:51:40,109 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-22 09:51:52,511 - WARNING - Couldn't parse JSON response. Returning raw output.
+2025-04-22 09:51:52,512 - INFO - Recipe generation complete.
