@@ -70,3 +70,56 @@
 2025-04-22 21:18:19,125 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
 2025-04-22 21:18:19,127 - INFO - Successfully pulled model 'Qwen'
 2025-04-22 21:18:40,525 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-28 13:25:06,993 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-28 13:25:06,994 - ERROR - Failed to check models: 'name'
+2025-04-28 13:25:06,994 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-28 13:25:08,708 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-28 13:25:08,708 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-28 13:26:32,851 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-28 13:26:32,857 - ERROR - Error generating recipe: Expecting property name enclosed in double quotes: line 6 column 5 (char 103)
+2025-04-28 13:27:41,513 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-28 13:27:41,514 - ERROR - Failed to check models: 'name'
+2025-04-28 13:27:41,514 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-28 13:27:42,897 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-28 13:27:42,897 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-28 13:29:28,804 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-28 13:34:54,172 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-28 13:34:54,173 - ERROR - Failed to check models: 'name'
+2025-04-28 13:34:54,173 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-28 13:34:55,733 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-28 13:34:55,734 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-28 13:35:40,585 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-28 15:17:01,754 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-28 15:17:01,755 - ERROR - Failed to check models: 'name'
+2025-04-28 15:17:01,755 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-28 15:17:04,069 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-28 15:17:04,071 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-28 15:17:43,755 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-28 15:18:50,256 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-28 15:19:18,666 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-28 15:19:18,666 - ERROR - Failed to check models: 'name'
+2025-04-28 15:19:18,666 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-28 15:19:20,912 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-28 15:19:20,912 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-28 15:19:40,388 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-28 15:20:50,878 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-28 15:20:50,879 - ERROR - Failed to check models: 'name'
+2025-04-28 15:20:50,879 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-28 15:20:52,242 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-28 15:20:52,242 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-28 15:20:58,860 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-28 15:20:58,860 - ERROR - Failed to check models: 'name'
+2025-04-28 15:20:58,860 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-28 15:21:00,197 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-28 15:21:00,198 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-28 15:21:24,601 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-28 15:21:24,602 - ERROR - Failed to check models: 'name'
+2025-04-28 15:21:24,602 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-28 15:21:25,859 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-28 15:21:25,859 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-28 15:22:01,069 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-04-28 15:22:01,070 - ERROR - Failed to check models: 'name'
+2025-04-28 15:22:01,070 - WARNING - Model 'deepseek-r1:1.5b' not found. Attempting to pull...
+2025-04-28 15:22:02,296 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-04-28 15:22:02,296 - INFO - Successfully pulled model 'deepseek-r1:1.5b'
+2025-04-28 15:22:36,374 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
